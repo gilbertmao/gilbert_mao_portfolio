@@ -1,5 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa6";
-import Link from "next/link";
+
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -61,15 +61,13 @@ const Hero = () => {
           
           
           {/* anchor the button */}
-          <Link href="#projects">
-            <div>
-              <MagicButton
-                title="Show my work"
-                icon={<FaLocationArrow />}
-                position="right"
-              />
-            </div>
-          </Link>
+          <a href="#projects">
+            <MagicButton
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </div>
