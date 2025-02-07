@@ -31,6 +31,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "TournaMate",
+    des: "Free, open-source tournament management software for esports and sports with automated bracket generation and scheduling",
+    img: "/Tournamate.svg",
+    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg", "/OpenAI.svg"],
+    link: "https://tournamate-e202c.web.app/",
+  },
+  {
+    id: 2,
+    title: "Food Search Engine",
+    des: "A food search engine that uses the Google Maps and Places API to find restaurants near you",
+    img: "/FoodSearch.svg",
+    iconLists: ["/SpringBoot.svg", "/re.svg", "/Java.svg", "GoogleMaps.svg", "GCP.svg"],
+    link: "https://frontend-dot-cs-3300-location-finder.uk.r.appspot.com/",
+  },
+  {
+    id: 3,
     title: "xv6 Operating System",
     des: "Implemented a user-space threading library and a login system",
     img: "/OS.svg",
@@ -38,7 +54,7 @@ export const projects = [
     link: "https://github.com/gilbertmao/xv6-Operating-System-Login",
   },
   {
-    id: 2,
+    id: 4,
     title: "This Full-Stack Website!",
     des: "A personal venture into full stack development with the NextJS framework",
     img: "/Website.svg",
