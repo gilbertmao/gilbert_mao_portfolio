@@ -8,36 +8,37 @@ const RecentProjects = () => {
     <div className="pb-20" id="projects">
       <h1 className="heading">
         My
-        <span className="text-purple"> projects</span>
+        <span className="text-teal-400 dark:text-teal-300"> projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {/* TODO FIX: If I add this, the projects go out of whack */}
-        {/* <h1 className="heading">
-              A small selection of {' '}
-              <span className="text-purple">recent projects</span>
-          </h1> */}
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-20 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            // Increased the container height and width
+            className="lg:min-h-[42rem] h-[35rem] flex items-center justify-center sm:w-[28rem] w-[90vw]"
             key={id}
           >
             <PinContainer title={title} href={link}>
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-[28rem] w-[90vw] overflow-hidden h-[22vh] lg:h-[32vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src="/bg.png" alt="bgimg" className="w-full h-full object-cover" />
                 </div>
-                <img src={img} alt="cover" className="z-10 absolute bottom-0" />
+                <img 
+                  src={img} 
+                  alt="cover" 
+                  className="z-10 absolute bottom-0 max-h-full w-auto" 
+                />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>
 
+              {/* Removed line-clamp to show full description */}
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -56,16 +57,16 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img src={icon} alt={`icon${index}`} className="p-2" />
                     </div>
                   ))}
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-teal-400">
                     Check Live Site
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#2DD4BF" />
                 </div>
               </div>
             </PinContainer>

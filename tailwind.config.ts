@@ -35,11 +35,16 @@ const config = {
         },
         white: {
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          100: "#CBD5E1", // Updated to match new theme
+          200: "#94A3B8", // Updated to match new theme
         },
         blue: {
-          "100": "#E4ECFF",
+          "100": "#E0F2FE", // Updated to a lighter teal-blue
+        },
+        teal: {
+          DEFAULT: "#2DD4BF", // Our new primary color
+          light: "#99F6E4",
+          dark: "#0D9488",
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",

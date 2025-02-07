@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import SocialCorner from "@/components/SocialCorner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,10 +24,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark" // can set to system for toggle
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
+          <SocialCorner />
           {children}
         </ThemeProvider>
       </body>
