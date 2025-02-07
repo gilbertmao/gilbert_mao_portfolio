@@ -7,19 +7,19 @@ const SocialCorner = () => {
     {
       name: 'GitHub',
       icon: <FaGithub />,
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/gilbertmao',
       color: 'hover:text-gray-400'
     },
     {
       name: 'LinkedIn',
       icon: <FaLinkedin />,
-      url: 'https://linkedin.com/in/yourusername',
+      url: 'https://www.linkedin.com/in/gilbertmao/',
       color: 'hover:text-blue-400'
     },
     {
       name: 'Google Scholar',
       icon: <SiGooglescholar />,
-      url: 'https://scholar.google.com/yourid',
+      url: 'https://scholar.google.com/citations?user=ToZfgj8AAAAJ',
       color: 'hover:text-blue-400'
     },
     {
