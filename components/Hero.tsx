@@ -56,7 +56,11 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              I am a 3rd year undergraduate student at Georgia Tech studying computer science with full-stack and ML development experience. I was previously a machine learning researcher at Michigan State University. Through being able to play many different sports, I've learned how to pick up new skills very quickly. I love to learn and create things that can help people. Feel free to take a look around to see if anything piques your interest; I'd love to chat further! Always open to opportunities where we can add value to a team and accomplish amazing things!
+          I am a 3rd year undergraduate student at Georgia Tech studying computer science with full-stack and ML development experience. 
+              I was previously a machine learning researcher at Michigan State University. Through being able to play many different sports, 
+              I&apos;ve learned how to pick up new skills very quickly. I love to learn and create things that can help people. 
+              Feel free to take a look around to see if anything piques your interest; I&apos;d love to chat further! 
+              Always open to opportunities where we can add value to a team and accomplish amazing things!
           </p>
           
           
