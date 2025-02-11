@@ -1,6 +1,7 @@
 import { workExperience } from '@/data'
 import React from 'react'
 import { Button } from './ui/MovingBorders'
+import { FaDownload, FaEye } from 'react-icons/fa'
 
 const Experience = () => {
   return (
@@ -33,6 +34,27 @@ const Experience = () => {
                 </Button>
             ))
             }
+        </div>
+
+        {/* Resume Buttons */}
+        <div className="flex justify-center mt-12 gap-4">
+            <a 
+                href="/documents/glmao_resume.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-teal-400/10 hover:bg-teal-400/20 transition-colors"
+            >
+                <FaEye className="text-lg" />
+                <span>View Resume</span>
+            </a>
+            <a 
+                href="/documents/glmao_resume.pdf" 
+                download
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-teal-400/10 hover:bg-teal-400/20 transition-colors"
+            >
+                <FaDownload className="text-lg" />
+                <span>Download Resume</span>
+            </a>
         </div>
     </div>
   )

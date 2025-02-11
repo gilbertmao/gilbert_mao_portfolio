@@ -7,6 +7,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { Grid } from "@/components/Grid"
 import RecentProjects from "@/components/RecentProjects";
 import Experience from "@/components/Experience";
+import Research from "@/components/Research";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Grid />
         <Experience />
         <RecentProjects />
+        <Research />
       </div>
     </main>
   );
