@@ -18,7 +18,7 @@ const Experience = () => {
                     //random makes the border speeds random
                     duration={Math.floor(Math.random() * 10000) + 10000}
                     borderRadius='1.75rem'
-                    className='flex-1 text-white border-neutral-200 dark:border-slate-800'
+                    className='flex-1 text-white border-neutral-200 dark:border-slate-800 relative z-[60]'
                 >
                     <div className='flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2'>
                         <img src={card.thumbnail} alt={card.thumbnail} className="lg:w-32 md:w-20 w-16"/>
@@ -37,7 +37,7 @@ const Experience = () => {
         </div>
 
         {/* Resume Buttons */}
-        <div className="flex justify-center mt-12 gap-4">
+        <div className="flex justify-center mt-12 gap-4 relative z-[60]">
             <a 
                 href="/documents/glmao_resume.pdf" 
                 target="_blank"

@@ -34,7 +34,7 @@ const Research = () => {
             key={item.id}
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius='1.75rem'
-            className='flex-1 text-white border-neutral-200 dark:border-slate-800 md:col-span-2'
+            className='flex-1 text-white border-neutral-200 dark:border-slate-800 md:col-span-2 relative z-[60]'
           >
             <div className='flex flex-col p-6 gap-4 w-full'>
               <div className='flex-1'>
