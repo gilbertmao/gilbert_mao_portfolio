@@ -8,14 +8,14 @@ const researchItems = [
     id: 1,
     title: "Unsupervised machine learning reveals slab hydration variations from deep earthquake distributions beneath the northwest Pacific",
     description: "Unsupervising Clustering Applications in Seismology",
-    thumbnail: "/thumbnails/research_paper_thumbnail.png",
+    thumbnail: "/research_paper_thumbnail.svg",
     pdfUrl: "/documents/glmao_research_paper.pdf"
   },
   {
     id: 2,
     title: "EGU 2022 Conference Preprint",
     description: "Presented in Nov 2022",
-    thumbnail: "/thumbnails/research_poster_thumbnail.png",
+    thumbnail: "/research_poster_thumbnail.svg",
     pdfUrl: "/documents/glmao_research_poster.pdf"
   }
 ];
