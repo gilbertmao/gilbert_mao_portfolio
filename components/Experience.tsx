@@ -37,7 +37,7 @@ const Experience = () => {
         </div>
 
         {/* Resume Buttons */}
-        <div className="flex justify-center mt-12 gap-4 relative z-[60]">
+        {/* <div className="flex justify-center mt-12 gap-4 relative z-[60]">
             <a 
                 href="/documents/glmao_resume.pdf" 
                 target="_blank"
@@ -55,7 +55,7 @@ const Experience = () => {
                 <FaDownload className="text-lg" />
                 <span>Download Resume</span>
             </a>
-        </div>
+        </div> */}
     </div>
   )
 }
